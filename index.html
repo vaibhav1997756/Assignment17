@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>KBC</h3>
+
+    <script>
+        var kbc = {
+            'current_question_no': 0,
+            'print_question': function() {
+
+            },
+            'select_answer': function(answer) {}, //This function will check whether the selected answer for the current question is correct or not.
+            //If correct, increment the counter (That means, move on to the next question),
+            //If incorrect. then show message saying you have lost and end the game.
+            question_list: [{
+                'text': "Which subject are we studying?",
+                'options': ["HTML", "CSS", "Javascript", "React"],
+                'correct_answer': "Javascript",
+                'price_amount': 1000
+            }, {
+                'text': "What is the name of capital of Rajasthan?",
+                'options': ["Jaipur", "Jodhpur", "Ajmer", "Udaipur"],
+                'correct_answer': "Jaipur",
+                'price_amount': 1000
+
+            }, {
+                'text': "2+2=?",
+                'options': ["5", "4", "3", "2"],
+                'correct_answer': "4",
+                'price_amount': 1000
+            }, {
+                'text': "Meaning of * =?",
+                'options': ["Multiplication", "Division", "Modulo", "Addition"],
+                'correct_answer': "Multiplication",
+                'price_amount': 1000
+            }, {
+                'text': "Lucknow is capitol of ?",
+                'options': ["UP", "MP", "HP", "AP"],
+                'correct_answer': "UP",
+                'price_amount': 1000
+            }, {
+                'text': "Yamuna is?",
+                'options': ["River", "Pond", "Sea", "Ocean"],
+                'correct_answer': "River",
+                'price_amount': 1000
+            }, {
+                'text': "78+34-45?",
+                'options': ["68", "67", "77", "88"],
+                'correct_answer': "67",
+                'price_amount': 1000
+            }, {
+                'text': "Bhopal is capitol of?",
+                'options': ["Gujrat", "AP", "MP", "HP"],
+                'correct_answer': "MP",
+                'price_amount': 1000
+            }],
+
+        };
+    </script>
+</body>
+
+</html>
